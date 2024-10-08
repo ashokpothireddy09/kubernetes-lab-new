@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: yourdockerhubusername/sample-app
+  pullPolicy: Always
+  tag: "v1"
+
+service:
+  type: LoadBalancer
+  port: 80
+
+resources: {}
