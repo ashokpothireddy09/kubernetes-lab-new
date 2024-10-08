@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/yourusername/sample-app.git
+    repoURL: https://github.com/ashokpothireddy09/kubernetes-lab-new.git
     targetRevision: HEAD
     path: sample-app-chart
     helm:
